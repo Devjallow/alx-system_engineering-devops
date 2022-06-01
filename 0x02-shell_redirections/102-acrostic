@@ -1,2 +1,2 @@
-#!/bin/ba
-cut -c1 | paste -s -d"
+#!/bin/bash
+echo -ne $(cut -c | tr -d '\n')'\n'
