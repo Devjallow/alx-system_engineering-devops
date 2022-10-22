@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# print a string 10 time with for loop
+# This script is displaying "Best school" 10 times.
 
 for n in {1..10};
 do
