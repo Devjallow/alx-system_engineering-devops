@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#print a string n number os time with for loop
+# print a string 10 time with for loop
 
 for n in {1..10};
 do
