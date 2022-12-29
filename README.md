@@ -1,1 +1,1 @@
-writting scripts using shell
+bash scripting looping and parsing

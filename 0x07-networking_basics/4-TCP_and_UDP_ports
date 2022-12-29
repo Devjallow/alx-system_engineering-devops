@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-# This script prints a tive listening ports
-
-netstat -i --program
