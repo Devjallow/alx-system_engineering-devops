@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# This script print "Best School" 10 times
-
-num=0
-until [ $num -eq 10 ]
-do
-	echo "Best School"
-	((num++))
-done

@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#a script that print a string n number of times
-
-num=1
-while [ $num -le 10 ];
-do
-	echo "Best School"
-	((num++))
-done
