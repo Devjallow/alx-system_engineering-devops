@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# This scrt display process id and name 
+pgrep -l bash
