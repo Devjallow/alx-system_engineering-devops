@@ -1,5 +1,11 @@
 #!/usr/bin/env bash
 # This script kill a process
-kill "4-to_infinity_and_beyond"
-echo "Terminated"
+PID=$(pgrep -f "$4-to_infinity_and_beyond")
+do
+if [[ -n  "$4-to_infinity_and_beyond" ]];then
+	kill "$PID"
+fi
+	echo "Terinated"
+done
+
 
