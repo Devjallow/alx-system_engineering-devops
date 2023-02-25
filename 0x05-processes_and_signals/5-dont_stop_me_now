@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script kill a process
+processname=$(pgrep -f "5-dont_stop_me_now")
+if  [ -n  "$5-dont_stop_me_now" ];then
+do
+	kill "$5-dont_stop_me_now"
+	echo "Terminated"
+done
+
