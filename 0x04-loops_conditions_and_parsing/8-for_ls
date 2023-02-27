@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# This script prints the contest of the directory.
+
+for file in *
+do
+	echo $file | sed 's/[0-9]*[-]//'	
+
+	
+done	
