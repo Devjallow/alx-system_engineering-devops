@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script prints list all listening port 
+# Using Netstat
+# AUTHOR: Bubacarr
+# Created: march 3rd 2023
+netstat -ano -p tcp
