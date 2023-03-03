@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# This script is use to ping a an IP
+# If no argument is passed by the user it prints instructions.
+# AUTHOR: Bubacarr Jallow
+# Created: 3-03-2023.
+if [ -z "$1" ];then
+echo "Usage: `basename $0` {IP_ADDRESS}"
+else
+ping "$1"
+fi
