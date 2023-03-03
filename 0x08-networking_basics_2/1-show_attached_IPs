@@ -1,2 +1,5 @@
 #!/usr/bin/env bash
-ifconfig | grep "inet" | awk '{print $2}'
+#This script prints all ipv4 ip addresses
+#AUTHOR: Bubacarr jallow
+#Created: 3-03-2023
+hostname -I
