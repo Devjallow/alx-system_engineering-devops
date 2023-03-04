@@ -4,7 +4,7 @@
 # AUTHOR: Bubacarr Jallow
 # Created: 3-03-2023.
 if [ -z "$1" ];then
-echo "Usage: `basename $0` {IP_ADDRESS}"
+	echo "Usage: $(basename "$0") {IP_ADDRESS}"
 else
 ping -c 5 "$1"
 fi
