@@ -1,7 +1,7 @@
 #To kill a process of a given name
 
-exec {'kilmenow':
+exec {'killmenow':
 command => 'pkill killmenow',
 only    => 'pgrep killmenow',
-path    => ['/bin/']
+path    => ['/bin/'],
 }
