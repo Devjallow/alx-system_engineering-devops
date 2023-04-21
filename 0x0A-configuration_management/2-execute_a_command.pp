@@ -2,6 +2,6 @@
 
 exec {'killmenow':
 command => 'pkill killmenow',
-only    => 'pgrep killmenow',
+onlyif  => 'pgrep killmenow',
 path    => ['/bin/'],
 }
