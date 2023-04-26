@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+filename=$1
+commit_message=$2
+
+git add $filename
+git commit -m $commit_message
+git push
+
