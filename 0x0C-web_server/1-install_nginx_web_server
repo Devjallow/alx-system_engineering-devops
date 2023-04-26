@@ -2,7 +2,7 @@
 # script that install Nginx
 
 apt-get update
-apt0get install -y nginx
+apt-get install -y nginx
 
 #configue nginx
 echo "server {
