@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 # script that will install Nginx
 
+ssh ubuntu@54.90.45.159
 sudo apt-get update
 sudo apt-get install -y nginx
 echo 'Hello World!' > /var/www/html/index.html
-sudo utf allow 'Nginx HTTP'
+sudo ufw allow 'Nginx HTTP'
 service nginx start
