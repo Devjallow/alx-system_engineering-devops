@@ -2,9 +2,9 @@
 # A script that will tranfer a file between
 # A server and a client
 
-if [ $# -lt 3 ];
+if [ $# -lt 4 ];
 then
-	echo "Usage: $0 PATH_TO_FILE_IPD USERNAME PATH_TO_SSH_KEY"
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
 else
 	file=$1
 	ip=$2
