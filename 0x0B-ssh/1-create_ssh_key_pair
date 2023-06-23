@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-# Bash script that creates an RSA key pair
-# AURTHOR : bubacarr jallow
-# Date : 22-04-2023
-
-ssh-keygen -t rsa -b 4096 -N "betty" -f school

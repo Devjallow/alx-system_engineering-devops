@@ -1,5 +1,0 @@
-# Client configuration file
-
-host *
-	PasswordAuthentication no
-	IdentityFile ~/.ssh/school
