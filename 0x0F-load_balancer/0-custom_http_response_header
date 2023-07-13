@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
-#create and configure nginx
-#with a custom header with it's value
+#configure nginx to return a http response
+#custom header must be with a customise name
+#value of custome http header
 apt-get update
 apt-get install -y nginx
 
@@ -27,5 +28,5 @@ printf %s "server {
       internal;
     }
 }" > /etc/nginx/sites-available/default
-service nginx restart
 
+service nginx restart
