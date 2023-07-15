@@ -8,10 +8,14 @@ sudo apt-get install -y nginx
 sudo mkdir -p /var/www/html
 sudo touch /var/www/html/index.html
 echo "Hello World" > sudo /var/www/html/index.html
+<<<<<<< HEAD
 touch /var/www/html/404.html
+=======
+sudo touch /var/www/html/404.html
+>>>>>>> 53be33ea232409f5b2be62635a07e10cfb438e34
 echo "Ceci n'est pas une page" > sudo /var/www/html/404.html
 
-printf %s "server {
+sudo printf %s "server {
     listen 80 default_server;
     listen [::]:80 default_server;
     add_header X-Served-By $HOSTNAME;
@@ -24,5 +28,11 @@ printf %s "server {
       internal;
     }
 }" > sudo /etc/nginx/sites-available/default
+<<<<<<< HEAD
 
 sudo service nginx restart
+=======
+
+sudo service nginx restart
+
+>>>>>>> 53be33ea232409f5b2be62635a07e10cfb438e34
